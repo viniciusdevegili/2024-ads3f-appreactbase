@@ -24,6 +24,9 @@ export default function Header() {
           <Navbar.Text as={Link} to="/contato">
             Contato
           </Navbar.Text>
+          <Navbar.Text as={Link} to="/albums">
+            Albums
+            </Navbar.Text>
         </Navbar.Collapse>
       </Container>
     </Navbar>
